@@ -10,3 +10,62 @@ html {
   box-sizing: border-box;
   font-size: 62.5%;
 }
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 6rem 8rem 18rem 8rem;
+}
+
+.logo img {
+  width: 20rem;
+}
+
+.btn--cta {
+  color: hsl(322, 100%, 66%);
+  text-decoration: none;
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 30px;
+  padding: 1rem 4rem;
+}
+
+.hero {
+  max-width: 63.5em;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 4.8rem;
+  color: hsl(192, 100%, 9%);
+}
+
+.hero .para {
+  font-size: 2rem;
+  padding: 0 20rem;
+  margin: 4rem 0;
+}
+
+.btn--get-started {
+  color: #fff;
+  background-color: hsl(322, 100%, 66%);
+  text-decoration: none;
+  font-weight: 700;
+  padding: 2rem 6rem;
+  border-radius: 30px;
+  display: inline-block;
+}
+
+.mockups {
+  padding: 15rem 0 12rem 0;
+}
+
