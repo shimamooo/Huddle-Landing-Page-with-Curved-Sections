@@ -15,6 +15,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-size: 1.6rem;
+  line-height: 1.6;
 }
 
 .header {
@@ -69,6 +70,10 @@ body {
   padding: 15rem 0 12rem 0;
 }
 
+.mockups img {
+  max-width: 100%;
+}
+
 .statistics {
   max-width: 55em;
   margin: 0 auto 13rem auto;
@@ -93,6 +98,41 @@ body {
 }
 
 .grow-together {
-  background-image: url(images/bg-section-top-desktop-1.svg);
-  background-size: cover;
+  margin: 25rem 0;
+  position: relative;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.grow-together-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
+  align-items: center;
+  padding: 5rem 13rem;
+}
+
+.h2 {
+  font-size: 4rem;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 3rem;
+}
+
+.grow-together-container img {
+  max-width: 100%;
+}
+
+.curved-1--top {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  top: 0;
+  margin-top: -20rem;
+}
+
+.curved-1--bottom {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -16rem;
 }
