@@ -69,3 +69,30 @@ body {
   padding: 15rem 0 12rem 0;
 }
 
+.statistics {
+  max-width: 55em;
+  margin: 0 auto 13rem auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.statistic {
+  text-align: center;
+}
+
+.h3--statistic {
+  font-size: 9.6rem;
+  font-weight: 700;
+  margin-top: -1rem;
+  text-align: center;
+}
+
+.para--statistic {
+  font-size: 2.4rem;
+  color: #808e9a;
+}
+
+.grow-together {
+  background-image: url(images/bg-section-top-desktop-1.svg);
+  background-size: cover;
+}
