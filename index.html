@@ -2,48 +2,73 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  Try it free
+  <header class="header">
+    <figure class="logo">
+      <img src="images/logo.svg" alt="logo">
+    </figure>
+    <a href="#" class="btn--cta">Try it free</a>
+  </header>
 
-  Build The Community Your Fans Will Love
+  <section class="hero">
+    <h1 class="h1">Build The Community Your Fans Will Love</h1>
+    <p class="para">
+      Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion. 
+    </p>
+    <a href="#" class="btn--get-started">Get Started For Free</a>
+    <img src="images/screen-mockups.svg" alt="mockups">
+  </section>
 
-  Huddle re-imagines the way we build communities. You have a voice, but so does 
-  your audience. Create connections with your users as you engage in genuine discussion. 
+  <section class="statistics">
+    <figure class="communities">
+      <img src="images/icon-communities.svg" alt="communities">
+      <h3 class="statistic">1.4k+</h3>
+      <p class="para--statistic">Communities Formed</p>
+    </figure>
 
-  Get Started For Free
+    <figure class="communities">
+      <img src="images/icon-messages.svg" alt="messages">
+      <h3 class="statistic">2.7m+</h3>
+      <p class="para--statistic">Messages Sent</p>
+    </figure>
+  </section>
 
-  1.4k+
-  Communities Formed
+  <section class="grow-together">
+    <h2 class="h2">Grow Together</h2>
+    <p class="para">
+      Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.
+    </p>
+    <img src="images/illustration-grow-together.svg" alt="grow together">
+  </section>
 
-  2.7m+
-  Messages Sent
+  <section class="flowing-conversations">
+    <img src="images/illustration-flowing-conversation.svg" alt="flowing conversations">
+    <h2 class="h2">Flowing Conversations</h2>
+    <p class="para">
+      You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.
+    </p>
+  </section>
 
-  Grow Together
-  Generate meaningful discussions with your audience and build a strong, loyal community. 
-  Think of the insightful conversations you miss out on with a feedback form. 
-
-  Flowing Conversations
-  You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-  just-in-time loading for a more natural flow.
-
-  Your Users
-  It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-  once signed in to your app, your users can start chatting immediately.
-
-  Ready To Build Your Community?
-  Get Started For Free
+  <section class="your-users">
+    <h2 class="h2">Your Users</h2>
+    <p class="para">
+      It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.
+    </p>
+    <img src="images/illustration-your-users.svg" alt="your users">
+  </section>
+  
+  <section class="cta">
+    <h2 class="h2">Ready To Build Your Community?</h2>
+    <a href="#" class="btn--get-started">Get Started For Free</a>
+  </section>
 
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
   vestibulum a, ultrices quis sem.
@@ -57,11 +82,7 @@
 
   Subscribe
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <footer class="footer">
   </footer>
 </body>
 </html>
