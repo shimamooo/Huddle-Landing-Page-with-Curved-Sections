@@ -187,3 +187,86 @@ body {
   margin-bottom: 25rem;
 }
 
+.footer {
+  position: relative;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  color: white;
+  background-color: hsl(192, 100%, 9%);
+  padding: 8rem 13rem 5rem 13rem;
+}
+
+.footer-para {
+  font-weight: 600;
+  margin: 3rem 0;
+}
+
+.contact {
+  max-width: 38rem;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.email {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 7rem;
+}
+
+.social-media img {
+  display: block;
+  filter: invert(100%) hue-rotate(93deg) brightness(103%) contrast(103%);
+}
+
+.social-media {
+  display: flex;
+  gap: 3rem;
+}
+
+.h4 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.newsletter-content {
+  max-width: 38rem;
+}
+
+.newsletter {
+  display: flex;
+  gap: 5rem;
+  margin-top: 5rem;
+}
+
+.newsletter input {
+  width: 32rem;
+  height: 5rem;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  outline: none;
+  border: none;
+}
+
+.newsletter button {
+ padding: 0 4rem; 
+ border: none;
+ color: #fff;
+ background-color: hsl(322, 100%, 66%);
+ border-radius: 7px;
+}
+
+.footer-top {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  margin-top: -20rem;
+}
