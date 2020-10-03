@@ -136,3 +136,48 @@ body {
   bottom: 0;
   margin-bottom: -16rem;
 }
+
+.flowing-conversations {
+  padding: 0 13rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
+  align-items: center;
+  margin-bottom: 25rem;
+}
+
+.flowing-conversations img {
+  max-width: 100%;
+}
+
+.your-users {
+  position: relative;
+  margin-bottom: 25rem;
+  background-color: hsl(207, 100%, 98%);
+}
+
+.your-users-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
+  padding: 5rem 13rem;
+  align-items: center;
+}
+
+.your-users-container img {
+  max-width: 100%;
+}
+
+.curved-2--bottom {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom: -17rem;
+}
+
+.curved-2--top {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  margin-top: -20rem;
+}
